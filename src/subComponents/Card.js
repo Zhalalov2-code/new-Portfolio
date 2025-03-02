@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import React from 'react'
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 // import { Github } from '../components/AllSvgs';
 
@@ -55,7 +54,7 @@ display: flex;
 justify-content: space-between;
 `
 
-const Link = styled.a`
+const StyledLink = styled.a`
 background-color: ${props =>props.theme.body};
 color: ${props =>props.theme.text};
 text-decoration: none;
@@ -113,9 +112,9 @@ const Card = (props) => {
                 }
             </Tags>
             <Footer>
-                <Link rel="noopener noreferrer" href={demo} target="_blank">
+                <StyledLink rel="noopener noreferrer" href={demo} target="_blank">
                     Visit
-                </Link>
+                </StyledLink>
                 {/* <Git  href={github}  target="_blank">
                     <Github width={30} height={30} />
                 </Git> */}
