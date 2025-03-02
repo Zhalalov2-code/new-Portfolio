@@ -38,6 +38,7 @@ const SocialIcons = (props) => {
       >
         <a
           style={{ color: "inherit" }}
+          rel="noopener noreferrer"
           target="_blank"
           href={"https://github.com/Zhalalov2-code/"}
         >

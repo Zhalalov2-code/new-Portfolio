@@ -113,7 +113,7 @@ const Card = (props) => {
                 }
             </Tags>
             <Footer>
-                <Link href={demo} target="_blank">
+                <Link rel="noopener noreferrer" href={demo} target="_blank">
                     Visit
                 </Link>
                 {/* <Git  href={github}  target="_blank">
