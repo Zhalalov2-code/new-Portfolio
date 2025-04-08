@@ -7,7 +7,7 @@ export const Work = [
         description:"My First Movie viewing site",
         tags:["react","css", "react-hooks", "API", "Axios", "react-router"],
         
-        demo:"https://github.com/Zhalalov2-code/film#:~:text=filmzhalalov2.netlify.app/",
+        demo:"https://filmzhalalov2.netlify.app/",
         
     },
     {
@@ -16,7 +16,7 @@ export const Work = [
         description:"A web-based weather viewer with cool animations",
         tags:["react","react-hooks","react-router", "API", "css", "Axios"],
         
-        demo:"https://github.com/Zhalalov2-code/weatherApp#:~:text=weatherappzhalalov2.netlify.app/",
+        demo:"https://weatherappzhalalov2.netlify.app/",
        
     },
     {
