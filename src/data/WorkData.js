@@ -3,6 +3,15 @@
 export const Work = [
     {
         id:1,
+        name:"Adminka-website",
+        description:"My admin site shows working with the api, data entry, data output, deletion, update and so on",
+        tags:["react","css", "react-hooks", "API", "Axios", "react-router"],
+        
+        demo:"https://zhalalov2-adminka.netlify.app/",
+        
+    },
+    {
+        id:2,
         name:"Film-website",
         description:"My First Movie viewing site",
         tags:["react","css", "react-hooks", "API", "Axios", "react-router"],
@@ -11,7 +20,7 @@ export const Work = [
         
     },
     {
-        id:2,
+        id:3,
         name:"WetaherApp",
         description:"A web-based weather viewer with cool animations",
         tags:["react","react-hooks","react-router", "API", "css", "Axios"],
@@ -20,7 +29,7 @@ export const Work = [
        
     },
     {
-        id:3,
+        id:4,
         name:"Todo App(React + Redux)",
         description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
         tags:["react","redux","framer-motion"],
@@ -29,7 +38,7 @@ export const Work = [
         
     },
     {
-        id:4,
+        id:5,
         name:"Responsive Navigation Menu",
         description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
         tags:["react","react-router","css"],
@@ -38,7 +47,7 @@ export const Work = [
         
     },
     {
-        id:5,
+        id:6,
         name:"Test-landing-site",
         description:"My pet project was made in 2021, when i was just starting frontend development.",
         tags:["react","boostrap", "react-router", "react-hooks"],
@@ -47,7 +56,7 @@ export const Work = [
         
     },
     {
-        id:6,
+        id:7,
         name:"My first website is about me",
         description:"I made a portfolio website for the first time in 2020y.",
         tags:["react","boostrap", "react-router", "react-hooks"],
@@ -56,7 +65,7 @@ export const Work = [
         
     },
     {
-        id:7,
+        id:8,
         name:"Job listing website",
         description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
         tags:["react","sass"],
@@ -65,7 +74,7 @@ export const Work = [
         
     },
     {
-        id:8,
+        id:9,
         name:"Sidebar Menu",
         description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
         tags:["react","styledComponents","react-router"],
