@@ -1,87 +1,72 @@
-// work data
-
 export const Work = [
-    {
-        id:1,
-        name:"Adminka-website",
-        description:"My admin site shows working with the api, data entry, data output, deletion, update and so on",
-        tags:["react","css", "react-hooks", "API", "Axios", "react-router"],
-        
-        demo:"https://zhalalov2-adminka.netlify.app/",
-        
-    },
-    {
-        id:2,
-        name:"Film-website",
-        description:"My First Movie viewing site",
-        tags:["react","css", "react-hooks", "API", "Axios", "react-router"],
-        
-        demo:"https://filmzhalalov2.netlify.app/",
-        
-    },
-    {
-        id:3,
-        name:"WetaherApp",
-        description:"A web-based weather viewer with cool animations",
-        tags:["react","react-hooks","react-router", "API", "css", "Axios"],
-        
-        demo:"https://weatherappzhalalov2.netlify.app/",
-       
-    },
-    {
-        id:4,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        
-    },
-    {
-        id:5,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
-        
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        
-    },
-    {
-        id:6,
-        name:"Test-landing-site",
-        description:"My pet project was made in 2021, when i was just starting frontend development.",
-        tags:["react","boostrap", "react-router", "react-hooks"],
-        
-        demo:"https://zhalalov2-landing.netlify.app/",
-        
-    },
-    {
-        id:7,
-        name:"My first website is about me",
-        description:"I made a portfolio website for the first time in 2020y.",
-        tags:["react","boostrap", "react-router", "react-hooks"],
-        
-        demo:"https://zhalalov2-portfolio.netlify.app/",
-        
-    },
-    {
-        id:8,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
-        
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        
-    },
-    {
-        id:9,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
-        
-        demo:"https://react-sidebar.vercel.app/",
-       
-    }
-    
-  
-] 
+  {
+    id: 1,
+    name: "Booking Apartment",
+    description: "A booking platform for apartments with a user-friendly interface for browsing and reserving properties.",
+    tags: ["React", "CSS", "React Hooks", "API", "Axios", "React Router"],
+    demo: "https://zhalalov2-booking.netlify.app/",
+  },
+  {
+    id: 2,
+    name: "Admin Dashboard",
+    description: "An admin panel showcasing CRUD operations (Create, Read, Update, Delete) with an API backend for data management.",
+    tags: ["React", "CSS", "React Hooks", "API", "Axios", "React Router"],
+    demo: "https://zhalalov2-adminka.netlify.app/",
+  },
+  {
+    id: 3,
+    name: "Film Viewing Website",
+    description: "A movie viewing platform where users can browse and view movie details, integrated with an external movie API.",
+    tags: ["React", "CSS", "React Hooks", "API", "Axios", "React Router"],
+    demo: "https://filmzhalalov2.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "Weather App",
+    description: "A web-based weather viewer with a visually appealing design and smooth animations that provides real-time weather data.",
+    tags: ["React", "React Hooks", "React Router", "API", "CSS", "Axios"],
+    demo: "https://weatherappzhalalov2.netlify.app/",
+  },
+  {
+    id: 5,
+    name: "Todo App (React + Redux)",
+    description: "A comprehensive todo app built using Redux Toolkit for state management and Framer Motion for smooth animations.",
+    tags: ["React", "Redux", "Framer Motion"],
+    demo: "http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "Responsive Navigation Menu",
+    description: "A fully responsive navigation menu component built from scratch using ReactJS and React Router, designed for seamless mobile and desktop views.",
+    tags: ["React", "React Router", "CSS"],
+    demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
+  },
+  {
+    id: 7,
+    name: "Test Landing Site",
+    description: "My first frontend project created in 2021 to practice basic HTML, CSS, and React concepts, focusing on layout and responsiveness.",
+    tags: ["React", "Bootstrap", "React Router", "React Hooks"],
+    demo: "https://zhalalov2-landing.netlify.app/",
+  },
+  {
+    id: 8,
+    name: "Personal Portfolio Website",
+    description: "A portfolio website I created in 2020 to showcase my skills and projects, focusing on clean design and responsive layouts.",
+    tags: ["React", "Bootstrap", "React Router", "React Hooks"],
+    demo: "https://zhalalov2-portfolio.netlify.app/",
+  },
+  {
+    id: 9,
+    name: "Job Listing Website",
+    description: "A job listing platform built with ReactJS that allows users to search, filter, and view job listings.",
+    tags: ["React", "Sass"],
+    demo: "http://react-job-listing-website.codebucks27.vercel.app/",
+  },
+  {
+    id: 10,
+    name: "Sidebar Menu",
+    description: "A stylish sidebar menu built using ReactJS and Styled Components, featuring smooth animations for an enhanced user experience.",
+    tags: ["React", "Styled Components", "React Router"],
+    demo: "https://react-sidebar.vercel.app/",
+  },
+];
